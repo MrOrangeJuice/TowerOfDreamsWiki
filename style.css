@@ -8,6 +8,10 @@ body {
 }
 
 h1 {
+    font-size: 6rem;
+}
+
+h2 {
     font-size: 5rem;
 }
 
@@ -15,12 +19,44 @@ p {
     font-size: 3rem;
 }
 
+ul {
+    display: flexbox;
+}
+
 a {
     color: #AEC6A5;
+    transition-duration: 0.1s;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #E6ADDD
+    color: #E6ADDD;
+    transition-duration: 0.1s;
+    font-size: 4.2rem;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    font-size: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.entryBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.entry {
+    background-color: #5A5F92;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.selected{
+    color: #E9A7A3;
 }
 
 @font-face {
