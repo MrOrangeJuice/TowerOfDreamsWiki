@@ -1,7 +1,26 @@
 body {
     text-align: center;
     font-family: 'bittymedium';
-    font-size: 5em;
+    background-color: #4D456D;
+    color: #F0D7B1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 3rem;
+}
+
+a {
+    color: #AEC6A5;
+}
+
+a:hover {
+    color: #E6ADDD
 }
 
 @font-face {
