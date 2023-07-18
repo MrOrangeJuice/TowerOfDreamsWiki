@@ -1,3 +1,13 @@
 body {
     text-align: center;
+    font-family: 'bittymedium';
+    font-size: 5em;
+}
+
+@font-face {
+    font-family: 'bittymedium';
+    src: url('bitty-webfont.woff2') format('woff2'),
+         url('bitty-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
